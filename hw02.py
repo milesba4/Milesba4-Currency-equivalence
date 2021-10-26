@@ -31,17 +31,18 @@ plt.show()
 
 
 
-# plt.figure(2)
+plt.figure(2)
 
-# names1 = ['BOB', 'BRL', 'CNY', 'DKK']
-# values1 = [9500, 7770, 8830, 8370]
+names1 = ['BOB', 'BRL', 'CNY', 'DKK']
+values1 = [9500, 7770, 8830, 8370]
 
-# plt.figure(figsize=(9, 3))
+plt.figure(figsize=(9, 3))
 
-# plt.subplot(132)
-# plt.scatter(names1, values1)
-# plt.suptitle('Currencies equivalence to 1000 GBP')
-# plt.xlabel('Currency')
-# plt.ylabel('Amt in currency equal to 1000 GBP')
-# plt.show()
+plt.subplot(132)
+plt.scatter(names1, values1)
+plt.suptitle('Currencies equivalence to 1000 GBP')
+plt.xlabel('Currency')
+plt.ylabel('Amt in currency equal to 1000 GBP')
+plt.show()
    
+# MUST COMMENT OUT THE CODE FOR THE OTHER PLOT IN ORDER TO RUN DESIRED CHART
